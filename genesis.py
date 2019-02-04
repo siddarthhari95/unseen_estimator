@@ -38,7 +38,7 @@ def expectedNumObserved(hAlpha, alpha, samplesX):
         for j in range(len(samplesX)):
             # print i, alpha[j]
             m *= (1-alpha[j])**l
-        # print m
+        print m
         s += hAlpha[i]*(1-m)
     return s
 

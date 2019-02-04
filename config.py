@@ -33,5 +33,5 @@ num_pops = 7
 num_samples = 7
 
 #distribution types
-# dist_types = ["uniform", "dirichlet", "geometric"]
-dist_types = ["uniform"]
+dist_types = ["uniform", "dirichlet", "geometric"]
+# dist_types = ["uniform"]

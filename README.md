@@ -1,3 +1,31 @@
-# unseen_estimator readme
-implementation of https://arxiv.org/pdf/1707.03854.pdf
-link to google drive folder: https://drive.google.com/open?id=1puYc7cyozPZQYmTLrJXmrPU5cpCmfFNx
+Estimation of Unseen Species
+
+CSE 549 Computational Biology Project
+
+implementation of algorithm described in the paper, https://arxiv.org/pdf/1707.03854.pdf
+
+To run:
+1. Install the dependencies by running 'pip install -r requirements.txt'
+2. Check the config file and modify any parameters as needed.
+3. Run the code using 'python genesis.py'
+
+
+Weighted Linear Estimator:  U = −∑(i1,...,im) : ∑ij>0(m∏j=1(−tj)ij)φi1,...,imW(i1,...,im).
+
+Generate Histogram implementation: Refer -> https://arxiv.org/pdf/1707.03854.pdf
+
+Estimated Number of species Observed: E[num observed] =∑(over α) H(α)*(1−∏(i 1..m)P) where P = (1−αi)^ni
+
+
+Sample Output:
+
+Minimized alpha                   : [0.7, 0.5, 0.4, 0.6, 0.7, 0.0, 0.5]
+
+Histogram hCounts:                : [0, 0, 0, 1, 0, 20, 0] 
+
+trueUnseen:                       : 18              
+
+Expected Number                   : 20.0
+
+Weighted Linear Estimator (uCap): : 25
+
