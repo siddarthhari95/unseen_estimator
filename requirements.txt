@@ -1,6 +1,6 @@
 absl-py==0.6.1
 enum34==1.1.6
-numpy==1.15.4
+numpy==1.22.0
 pandas==0.23.4
 python-dateutil==2.7.5
 scipy==1.1.0
